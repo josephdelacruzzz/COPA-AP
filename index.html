@@ -63,7 +63,7 @@
     <!--- Data --->
 
     <h3>Data about Recycling</h3>
-    <img src="img/recyclinginfo2.png" />
+    <img class="revealable" src="img/recyclinginfo2.png" />
     <h4>Recycling is beneficial! </h4>
     <h5>Recycling and reuse activites accounted for:</h5>
     <ul>
@@ -83,7 +83,7 @@
             These emissions will harm their habitats in nature and they will eventually be destroyed. Overall, Without recycling, the world will run out of finite resources.
         </p>
 
-    <img src="img/recycle.jpeg" />
+    <img class="revealable" src="img/recycle.jpeg" />
     <h3>All hands on deck to Recycle! </h3>
     <p>People all around the world can contribute to the Earth just by recycling. It's an easy and effective way for everyone to make a positive impact. 
         We can do it in our daily lives with something as simple as a water bottle or plastic container. 
@@ -91,7 +91,7 @@
         Recycling doesn't require much effort, yet it can have a huge effect on the health of our planet. The more we all participate, the greater difference we can make in creating a cleaner, greener world for future generations.
     </p>
 
-    <img src="img/recyclinginfo1.jpg" />
+    <img class="revealable" src="img/recyclinginfo1.jpg" />
     <h3>We can all do more!</h3>
     <p>Out of all the tons of trash being generated, not all of it ends up in landfills. While recycling helps, we can do more to reduce the amount of waste being produced in the first place. 
         We should aim to minimize waste by making conscious choices in our daily lives. One of the most effective steps we can take is to use reusable items whenever possible—whether it's a water bottle, shopping bags, or food containers. 
@@ -103,14 +103,14 @@
         <h2>Sign Our Petition 📢</h2>
         <div class="petition-container">
     
-          <div class="recycling-para">
+          <div class="recycling-para revealable">
             <!-- info goes here -->
             <p> Join the movement to help save our planet! Sign our petition today to show your support for recycling programs that reduce waste, conserve natural resources, and protect our environment for future generations. 
                 By adding your name, you're not just supporting a cause, but you're becoming part of a powerful force that will push for meaningful change. Together, we will create a greater and unified effort to hold our leaders accountable and demand that they take action on environmental issues. 
                 It's time to make recycling and sustainability a priority, and with your help, we can apply the pressure needed to ensure that our politicians hear us loud and clear. Every signature brings us one step closer to a cleaner, greener future for all.</p>
           </div>
     
-          <div class="signatures">
+          <div class="signatures revealable">
             <p>🖊️ Jake from Harlem supports this.</p>
             <p>🖊️ Chad from Long Island supports this.</p>
             <p>🖊️ Alan from Brooklyn supports this.</p>
@@ -137,7 +137,7 @@
     
     </div>
     <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
-    <h2 id="news">Recent News</h2>
+    <h2 class="revealable" id="news">Recent News</h2>
 
     <a class=""
         href="https://www.forbes.com/sites/alanohnsman/2024/10/10/redwood-materials-new-specialty-recycling-ev-batteries-damaged-by-fire-and-hurricanes-tesla/">
@@ -166,8 +166,19 @@
         <h4>Learn More | FAQs | Email our Team</h4>
     </div> 
 
+    <!-- Modal -->
+<div id="thanks-modal" class="modal">
 
-    <script src="index.js"></script>
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for your support!</p>
+      </div>
+        <img src="img/thank-you.jpeg" alt="Thank You Image" id="modal-image">
+    </div>
+  </div>
+    
+  <script src="index.js"></script>
 </body>
 
 </html>
